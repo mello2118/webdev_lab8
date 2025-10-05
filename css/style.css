@@ -6,13 +6,23 @@ nav#main-navbar ul {
   margin:0;
   padding:0;
   overflow:hidden;
+  position:relative;
+  left:50%;
+  float:left;
 }
 nav#main-navbar ul li {
   float:left;
-  padding: 10px 20px;
+  position:relativ;
+  right: 50%;
+  display:block;
 }
 nav#main-navbar ul li a {
   display:block;
+  text-decoration:none;
+  padding: 10px 20px;
+  color:#fff;
+}
+nav#main-navbar ul li a:hover {
+  background-color:#000;
   text-decoration:underline overline;
-  padding: 20px;
 }
