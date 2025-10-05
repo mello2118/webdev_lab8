@@ -1,0 +1,13 @@
+nav#main-navbar ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+nav#main-navbar ul li {
+  float:left;
+}
+nav#main-navbar ul li a {
+  display:block;
+  text-decoration:none;
+}
