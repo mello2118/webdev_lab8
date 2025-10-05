@@ -1,3 +1,6 @@
+nav#main-navbar {
+  background-color:blue;
+}
 nav#main-navbar ul {
   list-style-type: none;
   margin:0;
@@ -6,8 +9,10 @@ nav#main-navbar ul {
 }
 nav#main-navbar ul li {
   float:left;
+  padding: 10px 20px;
 }
 nav#main-navbar ul li a {
   display:block;
-  text-decoration:none;
+  text-decoration:underline overline;
+  padding: 20px;
 }
