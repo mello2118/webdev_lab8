@@ -34,24 +34,24 @@
 #onpage {
   text-decoration:none;
 }
-nav#sidebar {
+#sidebar {
   position:fixed;
   right:0%;
-  background:red;
+  background-color:red;
   height:100%;
   width:20%;
 }
-nav#sidebar ul {
+#sidebar ul {
   list-style-type:none;
   text-align:center;
   padding:0;
 }
-nav#sidebar ul li {
+#sidebar ul li a{
   display:block;
   padding:15px 0;
   color:#fff;
   text-decoration:none;
 }
-nav#sidebar ul li a:hover {
+#sidebar ul li a:hover {
   background-color:#000;
 }
